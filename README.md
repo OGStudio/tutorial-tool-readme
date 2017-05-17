@@ -1,9 +1,12 @@
 * [Overview](#overview)
 * [Dependencies](#deps)
 * [Installation](#installation)
+  * [Install tutorial-tool under Windows](#install-windows)
+  * [Install tutorial-tool under Linux](#install-linux)
   * [Install tutorial-tool under macOS](#install-macos)
 * [Examples](#examples)
   * [Create video tutorial for Blender installation](#example-blender)
+* [Tips and tricks](#tips)
 
 <a name="overview"/>
 
@@ -27,7 +30,7 @@ Dependencies
 
 * [Image magick](http://imagemagick.org)
 
-  tutorial-tool uses image magick to produce still images that describe
+  tutorial-tool uses Image magick to produce still images that describe
   tutorial steps. Still images are generated from a step's text
   and background image.
 
@@ -41,15 +44,61 @@ Dependencies
 Installation
 ============
 
+<a name="install-windows"/>
+
+Install tutorial-tool under Windows
+-----------------------------------
+TODO
+1. Install MSYS2?
+2. Install Image magick
+3. Install MLT
+
+<a name="install-linux"/>
+
+Install tutorial-tool under Linux
+---------------------------------
+TODO
+1. Install Image magick
+2. Install MLT
+
 <a name="install-macos"/>
 
 Install tutorial-tool under macOS
 ---------------------------------
-1. Install prerequisietes
-2. 
 
+1. Install MacPorts or Homebrew
 
+  ![Screenshot](readme/install-macos-01.png)
 
+  Install Homebrew by running the following command:
+
+  `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+  **Note**: This tutorial only covers [Homebrew](https://brew.sh/) installation,
+  because it's a one line command. You're free to use
+  [Mac Ports](https://www.macports.org/) if you wish.
+
+2. Install Image magick
+ 
+  ![Screenshot](readme/install-macos-02.png)
+
+  Install Image magick by running the following command:
+
+  `brew install imagemagick`
+
+3. Install MLT
+ 
+  ![Screenshot](readme/install-macos-03.png)
+
+  Install MLT by running the following command:
+
+  `brew install mlt`
+
+4. Install tutorial-tool
+
+  ![Screenshot](readme/install-macos-04.png)
+
+  Download it from GitHub page.
 
 Example workflow
 ================
@@ -109,6 +158,8 @@ Example workflow
    > /tmp/tutorial-tool-cache/video.mp4
 
    Here is how it looks like: [YouTube video](https://youtu.be/ScwXSJpIXpQ)
+
+<a name="deps"/>
 
 Tips and tricks
 ===============
