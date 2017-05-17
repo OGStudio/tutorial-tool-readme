@@ -68,37 +68,37 @@ Install tutorial-tool under macOS
 
 1. Install MacPorts or Homebrew
 
-  ![Screenshot](readme/install-macos-01.png)
+   ![Screenshot](readme/install-macos-01.png)
 
-  Install Homebrew by running the following command:
+   Install Homebrew by running the following command:
 
-  `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+   `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-  **Note**: This tutorial only covers [Homebrew](https://brew.sh/) installation,
-  because it's a one line command. You're free to use
-  [Mac Ports](https://www.macports.org/) if you wish.
+   **Note**: This tutorial only covers [Homebrew](https://brew.sh/) installation,
+   because it's a one line command. You're free to use
+   [Mac Ports](https://www.macports.org/) if you wish.
 
 2. Install Image magick
  
-  ![Screenshot](readme/install-macos-02.png)
+   ![Screenshot](readme/install-macos-02.png)
 
-  Install Image magick by running the following command:
+   Install Image magick by running the following command:
 
-  `brew install imagemagick`
+   `brew install imagemagick`
 
 3. Install MLT
  
-  ![Screenshot](readme/install-macos-03.png)
+   ![Screenshot](readme/install-macos-03.png)
 
-  Install MLT by running the following command:
+   Install MLT by running the following command:
 
-  `brew install mlt`
+   `brew install mlt`
 
 4. Install tutorial-tool
 
-  ![Screenshot](readme/install-macos-04.png)
+   ![Screenshot](readme/install-macos-04.png)
 
-  Download it from GitHub page.
+   Download it from GitHub page.
 
 Example workflow
 ================
