@@ -1,19 +1,56 @@
+* [Overview](#overview)
+* [Dependencies](#deps)
+* [Installation](#installation)
+  * [Install tutorial-tool under macOS](#install-macos)
+* [Examples](#examples)
+  * [Create video tutorial for Blender installation](#example-blender)
+
+<a name="overview"/>
+
 Overview
 ========
 
 **tutorial-tool** is a simple video editing tool to automates creation of tutorials
 by combining text and video
 
-Here's a samle video tutorial:
+Here's a preview:
 
 ![Preview](example/video.gif)
+
+<a name="deps"/>
 
 Dependencies
 ============
 
-* [Image magick](http://imagemagick.org)
-* [MLT](http://mltframework.org)
 * [Python](http://python.org)
+
+  tutorial-tool is a small Python application.
+
+* [Image magick](http://imagemagick.org)
+
+  tutorial-tool uses image magick to produce still images that describe
+  tutorial steps. Still images are generated from a step's text
+  and background image.
+
+* [MLT](http://mltframework.org)
+
+  tutorial-tool uses MLT to combine still images and video parts into
+  single video.
+
+<a name="installation"/>
+
+Installation
+============
+
+<a name="install-macos"/>
+
+Install tutorial-tool under macOS
+---------------------------------
+1. Install prerequisietes
+2. 
+
+
+
 
 Example workflow
 ================
