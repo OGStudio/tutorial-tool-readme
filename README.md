@@ -21,7 +21,6 @@ Here's a preview:
 
 Dependencies
 ============
-
 * [Python](http://python.org)
 
   tutorial-tool is a small Python application.
